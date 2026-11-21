@@ -1,6 +1,11 @@
+def add_task():
+    task = input("Enter your task: ")
+    print(f"Task added: {task}")
+
+
 def main():
     print("Welcome to DevTrack!")
-    print("Your personal task tracker.")
+    add_task()
 
 
 if __name__ == "__main__":
