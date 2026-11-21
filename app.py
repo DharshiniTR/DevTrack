@@ -3,6 +3,7 @@ def add_task():
     print(f"Task added: {task}")
 
 
+
 def view_tasks():
     print("Your tasks will appear here.")
 
@@ -23,6 +24,11 @@ def main():
         print("Goodbye!")
     else:
         print("Invalid choice!")
+=======
+def main():
+    print("Welcome to DevTrack!")
+    add_task()
+
 
 
 if __name__ == "__main__":
